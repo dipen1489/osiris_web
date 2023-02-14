@@ -1,0 +1,106 @@
+.calendar-main {
+  width: 110px;
+  height: auto;
+  background-color: #f6f5fb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.calendar-main-full {
+  width: 115px;
+  height: auto;
+  background-color: #f6f5fb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.fc-h-event,
+.fc-v-event {
+  border: unset !important;
+  border: unset !important;
+  background-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.fc .fc-timegrid-slot {
+  height: 140px !important;
+}
+
+.fc .fc-daygrid-day.fc-day-today,
+.fc .fc-timegrid-col.fc-day-today {
+  background-color: transparent !important;
+}
+
+.time {
+  color: #144067;
+  font-family: inherit;
+}
+
+.title {
+  color: #fe5722;
+  font-family: inherit;
+}
+
+.card-main-button,
+.card-main-button:hover {
+  border-radius: 10px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.enroll,
+.enroll:hover
+{
+  background-color: #cbcfd7;
+  color: #144067;
+}
+
+.enroll:disabled {
+  background-color: #cbcfd7;
+  color: #144067;
+  pointer-events: none;
+}
+
+.fc-timegrid-col,
+.fc-col-header-cell{
+  width: 120px !important;
+}
+.fc .fc-scrollgrid-liquid {
+  table-layout: auto !important;
+}
+
+.fc .fc-view-harness-active > .fc-view{
+  overflow: scroll;
+}
+
+.calender_title{
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+a.fc-daygrid-event.fc-daygrid-dot-event.fc-event.fc-event-draggable.fc-event-resizable.fc-event-start.fc-event-end.fc-event-today,
+a.fc-daygrid-event.fc-daygrid-dot-event.fc-event.fc-event-draggable.fc-event-resizable.fc-event-start.fc-event-end.fc-event-future {
+  width: 110px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cardactive{
+ background-color: #fee9e3 !important
+}
+
+.cardactive .calender_title{
+  color: #144067;
+}
+
+.enrolledMeeting{
+  background-color: antiquewhite !important;
+}
+td.fc-timegrid-slot.fc-timegrid-slot-lane {
+  display: none;
+}
+
+.fc-direction-ltr .fc-timegrid-slot-label-frame{
+  text-align: left;
+  clear: both;
+}
